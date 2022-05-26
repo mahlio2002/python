@@ -1,9 +1,0 @@
-from collections import Counter
-d=Counter()
-
-f=open('text.txt', encoding='UTF')
-for line in f:
-    d.update(line.strip(',.\n')
-f.close()
-
-print(d)
